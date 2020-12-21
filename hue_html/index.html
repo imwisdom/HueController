@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>Hue Control Page</title>
+    <style type="text/css">
+        h1{
+            text-align: center;
+        }
+        div{
+            float:left;
+            text-align: center;
+        }
+        .allController{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="allController">
+        <h1>Hue Control Page</h1>
+        <div id=1stController>
+        <h3>Hue 1 Controller</h3><br>
+	<form method="post">
+            Power: <input type="radio" name="on1">On  <input type="radio" name="off1">Off<br> 
+            Brightness:0 <input type="range" name="B1" min="0" max="254"> 254<br>
+            X:0 <input type="number" name="x1" step="0.01" min="0" max="1"> 1<br>
+            Y:0 <input type="number" name="y1" step="0.01" min="0" max="1"> 1<br>
+            <input type="submit" value="submit">
+	</form>
+        </div>
+        <div id=2ndController>
+            <h3>Hue 2 Controller</h3><br>
+	    <form method="post">
+            Power: <input type="radio" name="on2">On  <input type="radio" name="off2">Off<br> 
+            Brightness:0 <input type="range" name="B2" min="0" max="254"> 254<br>
+            X:0 <input type="number" name="x2" step="0.01" min="0" max="1"> 1<br>
+            Y:0 <input type="number" name="y2" step="0.01" min="0" max="1"> 1<br>
+            <input type="submit" value="submit">
+	    </form>
+        </div>
+        <div id=3rdController>
+        <h3>Hue 3 Controller</h3><br>
+	<form method="post">
+            Power: <input type="radio" name="on3">On  <input type="radio" name="off3">Off<br> 
+            Brightness:0 <input type="range" name="B3" min="0" max="254"> 254<br>
+            X:0 <input type="number" name="x3" step="0.01" min="0" max="1"> 1<br>
+            Y:0 <input type="number" name="y3" step="0.01" min="0" max="1"> 1<br>
+            <input type="submit" value="submit">
+	</form>
+        </div>
+    </div>
+</body>
+</html>
